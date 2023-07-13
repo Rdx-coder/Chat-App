@@ -1,0 +1,118 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis"
+    },
+    {
+      "id": 5,
+      "name": "David Brown"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Wilson"
+    },
+    {
+      "id": 7,
+      "name": "James Anderson"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Martinez"
+    },
+    {
+      "id": 9,
+      "name": "Daniel Taylor"
+    },
+    {
+      "id": 10,
+      "name": "Emma Garcia"
+    },
+    {
+      "id": 11,
+      "name": "Liam Hernandez"
+    },
+    {
+      "id": 12,
+      "name": "Ava Lopez"
+    },
+    {
+      "id": 13,
+      "name": "Noah Gonzalez"
+    },
+    {
+      "id": 14,
+      "name": "Isabella Perez"
+    },
+    {
+      "id": 15,
+      "name": "Mason Lewis"
+    },
+    {
+      "id": 16,
+      "name": "Mia Torres"
+    },
+    {
+      "id": 17,
+      "name": "Jacob Ramirez"
+    },
+    {
+      "id": 18,
+      "name": "Charlotte Foster"
+    },
+    {
+      "id": 19,
+      "name": "William Moore"
+    },
+    {
+      "id": 20,
+      "name": "Harper Reed"
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "contactName": "John Doe",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "John Doe",
+          "content": "Hello!"
+        },
+        {
+          "id": 2,
+          "sender": "You",
+          "content": "Hi John! How are you?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "contactName": "Jane Smith",
+      "messages": [
+        {
+          "id": 1,
+          "sender": "Jane Smith",
+          "content": "Hey there!"
+        },
+        {
+          "id": 2,
+          "sender": "You",
+          "content": "Hi Jane! What's up?"
+        }
+      ]
+    }
+  ]
+}

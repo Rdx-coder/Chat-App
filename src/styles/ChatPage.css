@@ -1,0 +1,167 @@
+/* ChatPage.css */
+
+/* Overall layout */
+.chat-page {
+  display: flex;
+  height: 100vh;
+}
+h1{
+   position: sticky;
+  top: 0;
+  /* background-color:; */
+  padding: 10px;
+  z-index: 1;
+}
+.sidebar {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-view {
+  flex: 3;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Search bar */
+.search-bar {
+  position: sticky;
+  top: 0;
+  /* background-color: #fff; */
+  padding: 10px;
+  z-index: 1;
+}
+
+.search-bar input {
+  width: 86%;
+  padding: 8px;
+  border: 2px solid #ced4da;
+  border-radius:30px;
+  outline: none;
+}
+
+/* Conversation list */
+.conversation-list-container {
+  margin-top: 60px;
+  position: relative;
+}
+
+/* Create conversation button */
+.create-conversation-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.create-conversation-button:hover {
+  background-color: #0069d9;
+}
+
+/* Chat header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Delete conversation button */
+.delete-conversation-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.delete-conversation-button:hover {
+  background-color: #c82333;
+}
+
+/* Conversation list styles */
+.conversation-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conversation-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.conversation-item:hover {
+  background-color: #f2f2f2;
+}
+
+.conversation-item .contact-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.conversation-item .contact-name {
+  font-weight: bold;
+}
+
+/* Message list styles */
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-item .message-content {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-item .message-content p {
+  margin: 0;
+}
+
+/* New message form styles */
+.new-message-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.new-message-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.new-message-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.new-message-form button:hover {
+  background-color: #218838;
+}
