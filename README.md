@@ -15,7 +15,7 @@ This is a simple chat application built with React.js. It allows users to have c
 1. Clone the repository:
 
   bash
-   git clone https://github.com/your-username/chat-application.git
+   git clone https://github.com/Rdx-coder/Chat-App.git
 
     cd chat-application
     npm install
@@ -42,7 +42,7 @@ This is a simple chat application built with React.js. It allows users to have c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chat-application.git
+   git clone https://github.com/Rdx-coder/Chat-App.git
 Navigate to the project directory:
 
 cd chat-application
